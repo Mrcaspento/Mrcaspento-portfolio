@@ -14,5 +14,14 @@ state = {
 
 handlePageChange = page => {
     this.setState({ currentPage: page});
-}
+};
+
+pages = [
+    "Home",
+    "Projects",
+    "About",
+    "Contact"
+]
+
+
 }
