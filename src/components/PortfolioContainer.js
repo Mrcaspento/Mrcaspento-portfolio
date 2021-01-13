@@ -21,7 +21,24 @@ pages = [
     "Projects",
     "About",
     "Contact"
-]
+];
 
+renderPage = () => {
+    switch(this.state.currentPage) {
+        case "Home" :
+          return <Home/>;
+        case "Projects": 
+          return <Projects/>;
+        case "About": 
+          return <About/>;
+        case "Contact": 
+          return <Contact/>;
+        default:
+            return <Home/>;
+    }
+};
+renderPage = () => {
+    
+}
 
 }
