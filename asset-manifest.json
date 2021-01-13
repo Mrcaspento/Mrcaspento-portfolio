@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/mrcaspento-portfolio/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/mrcaspento-portfolio/static/js/main.b9e87717.chunk.js",
+    "main.js.map": "/mrcaspento-portfolio/static/js/main.b9e87717.chunk.js.map",
+    "runtime-main.js": "/mrcaspento-portfolio/static/js/runtime-main.8932bb6e.js",
+    "runtime-main.js.map": "/mrcaspento-portfolio/static/js/runtime-main.8932bb6e.js.map",
+    "static/js/2.11270daa.chunk.js": "/mrcaspento-portfolio/static/js/2.11270daa.chunk.js",
+    "static/js/2.11270daa.chunk.js.map": "/mrcaspento-portfolio/static/js/2.11270daa.chunk.js.map",
+    "static/js/3.112126b6.chunk.js": "/mrcaspento-portfolio/static/js/3.112126b6.chunk.js",
+    "static/js/3.112126b6.chunk.js.map": "/mrcaspento-portfolio/static/js/3.112126b6.chunk.js.map",
+    "index.html": "/mrcaspento-portfolio/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/mrcaspento-portfolio/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.11270daa.chunk.js.LICENSE.txt": "/mrcaspento-portfolio/static/js/2.11270daa.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/mrcaspento-portfolio/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8932bb6e.js",
+    "static/js/2.11270daa.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.b9e87717.chunk.js"
+  ]
+}
