@@ -1,10 +1,7 @@
 import React from "react";
-import Footer from "../components/Footer";
-import NavBar from "../components/NavBar";
 
 const Contact = () => (
     <>
-    <NavBar />
     <div>
   
     <h1>About Page</h1>
@@ -16,7 +13,6 @@ const Contact = () => (
       diam, sit amet facilisis lectus blandit at.
     </p>
   </div>
-  <Footer />
   </>
 );
 
