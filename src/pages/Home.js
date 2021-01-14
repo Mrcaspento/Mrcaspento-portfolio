@@ -1,11 +1,12 @@
 import React from "react";
+import CardImage from "../components/CardImage";
 
 const Home = () => (
     <>
 
         <div>
-            <h1>Hello There</h1>
            
+            <CardImage /> 
         </div>
     </>
 );
