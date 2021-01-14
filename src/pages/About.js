@@ -2,11 +2,14 @@ import React from 'react';
 import Header from '../components/Header/index';
 import Footer from '../components/Footer/index';
 import NavBar from '../components/NavBar';
-import Card from "../components/Card";
+// import Card from "../components/Card";
 
 
 const About = () => (
+    <>
+    <NavBar />
     <div>
+      <Header />
     <h1>About Page</h1>
     <p>
       Nunc pharetra finibus est at efficitur. Praesent sed congue diam. Integer gravida dui mauris,
@@ -16,6 +19,8 @@ const About = () => (
       diam, sit amet facilisis lectus blandit at.
     </p>
   </div>
+  <Footer />
+  </>
 
 
 )
