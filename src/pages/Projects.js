@@ -1,5 +1,7 @@
 import React from "react";
 
+import FuelFinder from "../components/FuelFinder";
+import MemePlanner from "../components/Planner";
 
 const Projects = () => {
   
@@ -14,8 +16,8 @@ const Projects = () => {
     <div className="row justify-content-md-center">
       <div className="row justify-content-md-center">
         <div className="col">
-          <div className="card" style={{width: 300, height: 800 }}>
-            <img src="../assets/images/Fuelfinder.gif" className="card-img-top img-fluid" alt="Fuel Finder" />
+          <div className="card" style={{width: 640, height: 500 }}>
+            <FuelFinder className="col"/>
             <div className="card-body">
               <p className="card-text text-justify">A website tool to find the nearest gas , and Ev charging station that
                 uses your location to create a location radius that you choose. Then Api will return results for the
@@ -27,8 +29,8 @@ const Projects = () => {
           </div>
         </div>
         <div className="col">
-          <div className="card bg-light" style={{width: 30 }}>
-            <img src="../Deployed_Apps/Meme Day Scheduler.gif" className="card-img-top" alt="Day planner" />
+          <div className="card bg-light" style={{width: 700, hieght: 500 }}>
+            <MemePlanner />
             <div className="card-body">
               <p className="card-text text-justify">First introduction into local storage and dynamically creating divs, this day planner saves notes and also takes in account the current time and date to help highlight task's that are either in the future,past, or present.</p>Deployed website in action <a
                 href="https://mrcaspento.github.io/PotatoManagment"> Day Planner</a>
