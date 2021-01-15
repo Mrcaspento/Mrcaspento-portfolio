@@ -2,6 +2,8 @@ import React from "react";
 import Hello from '../../assets/images/Hello-there.gif'
 import Profile from '../../assets/images/Profile.jpg'
 import './style.css'
+
+
 const CardImage =() => {
 
     return (
