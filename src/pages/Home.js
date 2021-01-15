@@ -1,12 +1,13 @@
 import React from "react";
-// import CardImage from "../components/CardImage";
+
+
 
 const Home = () => (
     <>
-
-        <div>
-            
-        </div>
+    
+        <h1>
+           Welcome to a work in progress React App
+        </h1>
     </>
 );
 

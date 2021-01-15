@@ -1,6 +1,7 @@
 import React from "react";
-
+import WeatherDisplay from "../components/DeathStranding/index"
 import FuelFinder from "../components/FuelFinder";
+import BikiniBeach from "../components/Game";
 import MemePlanner from "../components/Planner";
 
 const Projects = () => {
@@ -40,8 +41,8 @@ const Projects = () => {
       </div>
       <div className="row justify-content-md-center">
         <div className="col justify-content-md-center">
-          <div className="card" style={{width: 30}}>
-            <img src="../Deployed_Apps/Weather.gif" className="card-img-top" alt="Weather app" />
+          <div className="card" style={{width: 642, height: 470}}>
+            <WeatherDisplay />
             <div className="card-body">
               <p className="card-text">A weather app that can be used to search any city in the world and check the weather and the weather for the next 15 hours. My first introduction in to API's.</p>Deployed website in action <a
                 href="https://mrcaspento.github.io/DeathStrandingWeather"> WeatherDashboard</a>
@@ -50,14 +51,11 @@ const Projects = () => {
         </div>
 
         <div className="col">
-          <div className="card" style={{width: 30}}>
-            <img src="../Deployed_Apps/Quiz.gif" className="card-img-top" alt="Quiz" />
+          <div className="card" style={{width: 643,hieght:400}}>
+            <BikiniBeach />
             <div className="card-body">
-              <p className="card-text">The quiz is dynamically created with javascript, I have a for loop that populates the
-                questions and choices, as well as a loop for the questions and answers to be random each time its
-                played,
-                and after every time the user clicks next question.</p>Deployed website in action <a
-                href="https://mrcaspento.github.io/NoHope/index.html">Json Quiz</a>
+              <p className="card-text">Honestly one of my favorite projects I worked on in the class, though extermely tough due to having to learn a new langauge. The game uses PIXI.js as its main game engine, only problem that I will fix is the Animation of the user, I really would like to make it move.</p>Deployed website in action <a
+                href="https://dashboard.heroku.com/apps/blooming-spire-21723">A Simple JS Game</a>
             </div>
           </div>
         </div>

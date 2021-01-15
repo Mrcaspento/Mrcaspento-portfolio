@@ -7,7 +7,7 @@ const WeatherDisplay =() => {
     return (
       <>
     <div>
-      <img src={Weather} alt="Weather" className="card-img-top-img-fluid" id="Fuel" />
+      <img src={Weather} alt="Weather" className="card-img-top-img-fluid" />
     </div>
     
     </>
