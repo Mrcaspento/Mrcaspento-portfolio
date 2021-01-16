@@ -1,54 +1,30 @@
 import React from 'react';
-import { Link } from "react-router-dom";
 import "./style.css";
+import { Link } from 'react-router-dom';
+
 const NavBar = (props) => {
-  return (
-    <nav className="navbar navbar-expand navbar">
-      <Link className="navbar-brand" to="/">
-        M.C 
-      </Link>
+  
+    return (
+      <nav className="navbar sticky-top navbar-expand-md navbar-dark bg-dark">
       <div>
-        <ul className="navbar-nav">
-          <li className="nav-item">
-            <Link
-              to="/"
-              className={
-                window.location.pathname === "/" || window.location.pathname === "/home"
-                  ? "nav-link active"
-                  : "nav-link"
-              }
-            >
-              Home
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link
-              to="/about"
-              className={window.location.pathname === "/about" ? "nav-link active" : "nav-link"}
-            >
-              AboutMe
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link
-              to="/projects"
-              className={window.location.pathname === "/projects" ? "nav-link active" : "nav-link"}
-            >
-              Projects
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link
-              to="/contact"
-              className={window.location.pathname === "/contact" ? "nav-link active" : "nav-link"}
-            >
-              Contact me 
-            </Link>
-          </li>
-        </ul>
+          <ul className="navbar-nav">
+              <li className="nav-item">
+              <Link className={"nav-link active nav-link"} onClick={props.SetAboutHome} > Home</Link>
+              </li>
+              <li className="nav-item">
+                  <Link onClick={props.SetAboutPage} className={"nav-link active nav-link"}>About Me</Link>
+              </li>
+              <li className="nav-item">
+                  <Link onClick={props.SetProjectsPage} className={"nav-link active nav-link"}>Projects</Link>
+              </li>
+              <li className="nav-item">
+                  <Link onClick={props.SetContactPage} className={"nav-link active nav-link"}>Contact me</Link>
+              </li>
+          </ul>
       </div>
-    </nav>
-  );
-}
+  </nav>
+    )
+  }
+
 
 export default NavBar;

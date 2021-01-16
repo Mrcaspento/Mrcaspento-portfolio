@@ -1,10 +1,25 @@
 .navbar{
     background-color: #312c51;
+    display: grid;
+    grid-gap: 10px;
+    width: 70vw;
+    margin-right: 2 rem;
+    justify-content: end;
 }
-.nav-link{
+.nav-link:hover{
+    border-radius: 4px;
+    transition: all 0.3s ease-out;
     color: #f0c38e
+
 }
 .navbar-brand{
 
     color: #fff3e6
+}
+.fa-bars{
+    color: #f0c38e
+}
+
+.nav-icon {
+    display: none;
 }
