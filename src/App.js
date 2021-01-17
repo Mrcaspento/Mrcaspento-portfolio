@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { BrowserRouter } from 'react-router-dom';
-import NavBar from './components/NavBar/index';
+import NavBar from "./components/NavBar/index"
 import Wrapper from './components/Wrapper/index';
 import Footer from './components/Footer/index';
 import Header from './components/Header/index';

@@ -21,7 +21,7 @@ const Contact = () => (
                   </li>
                   <li><strong>Twiter:</strong> <a href="https://twitter.com/UnusualCaspento">UnusualCaspento</a></li>
                   <li><strong>Linkedin:</strong> <a href="https://www.linkedin.com/in/matthew-caspento-6358671b6/">Matthew Caspento</a></li>
-                  <li><strong>Resume:</strong> <a href="../assets/pdf/Resume.pdf">Resume</a></li>
+                  <li><strong>Resume:</strong> <a href="../assets/pdf/Resume.pdf"download>Resume</a></li>
                 </ul>
               </section>
               <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
