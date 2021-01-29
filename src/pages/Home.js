@@ -6,7 +6,7 @@ const Home = () => (
     <>
     
         <h1>
-           Welcome to a work in progress React App
+           Welcome to My Portfolio Website
         </h1>
     </>
 );
