@@ -6,7 +6,7 @@ import Contact from '../../pages/Contact'
 import Projects from '../../pages/Projects'
 
 
-const HomeNav = () => {
+const NavBar = () => {
     const [click, setClick] =useState(false);
     const [button, setButton ] = useState( true );
     const [tab, setTab] =useState("home"); //by default the page will route to home
@@ -33,7 +33,7 @@ window.addEventListener('resize', showMenuButton) //adding this for mobile respo
 
 return(
     <>
-      <nav className="navbar mb-4">
+      <nav className="navbar">
                 <div className="navbar-container">
                     <div to="/" className="navbar-logo ">
                         Caspento<i className=" fas fa-leaf" />
@@ -71,4 +71,4 @@ return(
 
 
 }
-export default HomeNav;
+export default NavBar;
