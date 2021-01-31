@@ -13,9 +13,11 @@ import './style.css'
 
 
 
+
 const useStyles = makeStyles((theme) => ({
     root: {
         flexGrow: 1,
+        component: "video"
         
     },
     paper: {
@@ -38,10 +40,13 @@ const useStyles = makeStyles((theme) => ({
     },
     media: {
         height: 140,
-        
+     
     },
 
 }));
+
+      
+
 
 export function ProjectList({ children }) {
     return (
@@ -56,6 +61,7 @@ export function ProjectListItem({
     deployed,
     date,
 }) {
+  
     const classes = useStyles();
     return (
         <li className="list-group-item m-2">
@@ -66,16 +72,9 @@ export function ProjectListItem({
                         <Grid item xs={12} sm container>
                             <Grid item xs container direction="column" spacing={2}>
                                 <Grid item xs>
-
                                     <Card className={classes.root}>
+                                          <img src={gif} alt={title} />
                                         <CardActionArea>
-                                            <CardMedia
-                                                component="img"
-                                                alt={title}
-                                                height="140"
-                                                image={gif}
-                                                title="Contemplative Reptile"
-                                            />
                                             <CardContent>
                                                 <Typography gutterBottom variant="h5" component="h2">
                                                     {title}

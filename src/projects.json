@@ -2,7 +2,7 @@
     {
         "id": 1,
         "title": "FuelFinder",
-        "gif": "/public/images/FuelFinder.gif",
+        "gif": "./assets/Profile.jpg",
         "body": "A website tool to find the nearest gas , and Ev charging station that uses your location to create a location radius that you choose. Then Api will return results for the given location as well as a Map in a modal. Inside the modal users can scroll the results and find the detailed info they need. On a seperate tab users can see the traffic and construction that may impede the route to his/her/non-binary endpoint. ",
         "githubRepo": "https://github.com/grantf12/Alternative_Fuel_Finder",
         "deployed": "https://grantf12.github.io/Alternative_Fuel_Finder/",
@@ -11,7 +11,7 @@
     {   
         "id": 2,
         "title": "RunneGame",
-        "gif": "public/images/BikiniBeach.gif",
+        "gif": "./assets/Profile.jpg",
         "body": "A  simiple PIXI.js game with collison and movement, that has a score that is saved in a mySql db for each user. The user has to login in or sign up to play first",
         "githubRepo": "https://github.com/Mrcaspento/Runner-Game",
         "deployed": "https://blooming-spire-21723.herokuapp.com/",
@@ -20,7 +20,7 @@
     {
         "id": 3,
         "title": "Be-There",
-        "gif": "/public/images/Be-There.gif",
+        "gif": "./assets/Profile.jpg",
         "body": "Our project was to create a community-based website where organizations can collaborate in order to create volunteer events that help their community. Make Community service competitive.",
         "githubRepo": "https://github.com/mrcaspento/Be-There",
         "deployed": "https://be-there-project.herokuapp.com",
@@ -29,7 +29,7 @@
     {
         "id": 4,
         "title": "Offline budgeting",
-        "gif": "",
+        "gif": "./assets/Be-There.gif",
         "body": "The user will be able to add expenses and deposits to their budget with or without a connection. When entering transactions offline, they should populate the total when brought back online.",
         "githubRepo": "https://github.com/Mrcaspento/OfflineBudgeting",
         "deployed": "https://calm-castle-37595.herokuapp.com/",

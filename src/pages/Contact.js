@@ -1,12 +1,12 @@
 import React from "react";
-
+import NavBar from "../components/NavBar"
 // import ProfilePic from "../components/Champ";
 import Wrapper from "../components/Wrapper";
 
 const Contact = () => (
     <>
   <Wrapper>
-
+    <NavBar />
     <div>
   <h2>Contact Info</h2>
   <div className="card mb-3" style={{width: 600}}>

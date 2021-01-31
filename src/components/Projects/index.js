@@ -1,4 +1,4 @@
-import React, { Component, useState } from 'react';
+import React, { Component } from 'react';
 import projects from "../../projects.json"
 import { ProjectList, ProjectListItem } from "./ProjectList";
 
@@ -11,6 +11,7 @@ class ProjectCard extends Component {
 
         this.state = {
             projects,
+      
         }
 
     }
@@ -23,7 +24,7 @@ class ProjectCard extends Component {
                             <ProjectListItem
                                 key={project.id}
                                 title={project.title}
-                                gif= {this.props.gif}
+                                gif= {project.gif}
                                 body={project.body}
                                 githubRepo={project.githubRepo}
                                 deployed={project.deployed}
