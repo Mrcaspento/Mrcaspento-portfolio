@@ -1,6 +1,6 @@
 .navbar {
     height: 80px;
-    background: #184d47;
+    background: #222831;
     align-items: center;
     font-size: 1.2rem;
     justify-content: center;
@@ -18,7 +18,7 @@
   }
   
   .navbar-logo {
-    color: #000000;
+    color: #eee;
     justify-self: start;
     margin-left: 20px;
     cursor: pointer;
@@ -45,7 +45,7 @@
   }
   
   .nav-links {
-    color: #000000;
+    color: #eee;
     display: flex;
     align-items: center;
     text-decoration: none;
@@ -55,11 +55,11 @@
   }
    
   .nav-links:hover {
-    border-bottom: 4px solid #fad586;
+    border-bottom: 4px solid #2b2e4a;
     transition: all 0.2s ease-out;
   }
   .fa-bars {
-    color: #000000;
+    color: #eeeeee;
   }
   
   .nav-links-mobile {
@@ -88,7 +88,7 @@
     }
   
     .nav-menu.active {
-      background: #96bb7c; /* this is for the hamburger mobile menu background */
+      background: #903749; /* this is for the hamburger mobile menu background */
       left: 0;
       opacity: 1;
       transition: all 0.5s ease;
@@ -103,8 +103,8 @@
     }
   
     .nav-links:hover {
-      background-color: #fad586;
-      color: #242424;
+      background-color: #2b2e4a;
+      color: #53354a;
       border-radius: 0;
     }
   
@@ -125,13 +125,13 @@
       cursor: pointer;
     }
     .nav-links:hover {
-      background-color: #fad586;
-      color: #fad586;
+      background-color: #e84545; /*color when hovered over*/
+      color: #eeeeee; /*color of text when hovering links */
       border-radius: 0;
     }
   
     .fa-times {
-      color: #000000;
+      color: #eee;
       font-size: 2rem;
     }
   
@@ -144,15 +144,15 @@
       text-decoration: none;
       font-size: 1.5rem;
       background-color: transparent;
-      color: #fff;
+      color: #903749;
       padding: 14px 20px;
       border: 1px solid #000000;
       transition: all 0.3s ease-out;
     }
   
     .nav-links-mobile:hover {
-      background: #fad586;
-      color: #fad586;
+      background: #e84545;
+      color: #eee;
       transition: 250ms;
     }
   }

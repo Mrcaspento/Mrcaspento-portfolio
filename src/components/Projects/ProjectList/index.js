@@ -1,0 +1,110 @@
+import React from 'react';
+import { makeStyles } from '@material-ui/core/styles';
+import Grid from '@material-ui/core/Grid';
+import Paper from '@material-ui/core/Paper';
+import Typography from '@material-ui/core/Typography';
+import Button from '@material-ui/core/Button';
+import Card from '@material-ui/core/Card';
+import CardActionArea from '@material-ui/core/CardActionArea';
+import CardActions from '@material-ui/core/CardActions';
+import CardContent from '@material-ui/core/CardContent';
+import CardMedia from '@material-ui/core/CardMedia';
+import './style.css'
+
+
+
+const useStyles = makeStyles((theme) => ({
+    root: {
+        flexGrow: 1,
+        
+    },
+    paper: {
+        padding: theme.spacing(2),
+        margin: 'auto',
+        maxWidth: 800,
+        background: '#903749'
+    },
+    image: {
+        width: 300,
+        height: 128,
+        
+    },
+    img: {
+        margin: 'auto',
+        display: 'block',
+        maxWidth: '100%',
+        maxHeight: '100%',
+        
+    },
+    media: {
+        height: 140,
+        
+    },
+
+}));
+
+export function ProjectList({ children }) {
+    return (
+        <ul className="list-group backcard">{children}</ul>
+    )
+}
+export function ProjectListItem({
+    title,
+    gif,
+    body,
+    githubRepo,
+    deployed,
+    date,
+}) {
+    const classes = useStyles();
+    return (
+        <li className="list-group-item m-2">
+            <div className={classes.root}>
+                <Paper className={classes.paper}>
+                    <Grid container spacing={2}>
+
+                        <Grid item xs={12} sm container>
+                            <Grid item xs container direction="column" spacing={2}>
+                                <Grid item xs>
+
+                                    <Card className={classes.root}>
+                                        <CardActionArea>
+                                            <CardMedia
+                                                component="img"
+                                                alt={title}
+                                                height="140"
+                                                image={gif}
+                                                title="Contemplative Reptile"
+                                            />
+                                            <CardContent>
+                                                <Typography gutterBottom variant="h5" component="h2">
+                                                    {title}
+                                                </Typography>
+                                                <Typography variant="body2" color="textSecondary" component="p">
+                                                    {body}
+                                                </Typography>
+                                            </CardContent>
+                                        </CardActionArea>
+                                        <CardActions>
+                                            <Button size="small" variant="contained"color="primary" href={githubRepo} target="_blank">
+                                               GitHub Repo
+                                            </Button>
+                                            <Button size="small" color="primary" variant="contained" target="_blank" href= {deployed}>
+                                             Deployed Website
+                                                </Button>
+                                        </CardActions>
+                                    </Card>
+                                </Grid>
+                                <Grid item>
+                                    <Typography variant="body2" style={{ cursor: 'pointer' }}>
+                                        {date}
+                                    </Typography>
+                                </Grid>
+                            </Grid>
+                        </Grid>
+                    </Grid>
+                </Paper>
+            </div>
+        </li>
+    )
+}

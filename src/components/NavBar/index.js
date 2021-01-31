@@ -3,7 +3,9 @@ import './style.css'
 import {Link} from 'react-router-dom';
 import About from '../../pages/About'
 import Contact from '../../pages/Contact'
-import Projects from '../../pages/Projects'
+
+import Projects from '../../pages/Projects';
+
 
 
 const NavBar = () => {
@@ -35,7 +37,7 @@ return(
     <>
       <nav className="navbar">
                 <div className="navbar-container">
-                    <div to="/" className="navbar-logo ">
+                    <div to="/home" className="navbar-logo ">
                         Caspento<i className=" fas fa-leaf" />
                     </div>
                     

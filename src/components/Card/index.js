@@ -1,12 +1,12 @@
 import React from 'react'
-import ProfilePic from "../Champ/index";
+
 
 const Card = () =>{
     return (
       <>
       <div className="row d-flex">
       <div className="col-md-4">
-      <ProfilePic />
+   
       </div>
       <div className="col-md-6 bg- flex-row-reverse">
           <h5 className=" h4 card-title">Matthew Caspento</h5>
@@ -24,6 +24,6 @@ const Card = () =>{
       </div>
   </div>
   </>
-      );
+);
 }
 export default Card;

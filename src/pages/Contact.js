@@ -1,15 +1,18 @@
 import React from "react";
 
-import ProfilePic from "../components/Champ";
+// import ProfilePic from "../components/Champ";
+import Wrapper from "../components/Wrapper";
 
 const Contact = () => (
     <>
+  <Wrapper>
+
     <div>
   <h2>Contact Info</h2>
   <div className="card mb-3" style={{width: 600}}>
         <div className="row no-gutters">
           <div className="col-md-4">
-           <ProfilePic  />
+           {/* <ProfilePic  /> */}
           </div>
           <div className="col-md-8">
             <div className="card-body">
@@ -30,6 +33,7 @@ const Contact = () => (
         </div>
       </div>
    </div>
+   </Wrapper>
   </>
 );
 
