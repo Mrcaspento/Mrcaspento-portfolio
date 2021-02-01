@@ -1,15 +1,14 @@
 import React from 'react';
-import Card from '../components/Card';
 import Wrapper from "../components/Wrapper"
 import NavBar from "../components/NavBar";
-
+import AboutContext from "../components/AboutContext"
 
 
 const About = () => (
     <>
     <Wrapper>
       <NavBar />
-      <Card />
+      <AboutContext />
   </Wrapper>
   </>
 

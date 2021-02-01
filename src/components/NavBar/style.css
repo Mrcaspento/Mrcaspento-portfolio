@@ -1,6 +1,6 @@
 .navbar {
     height: 80px;
-    background: #b71c1c;
+    background: #00587a;
     align-items: center;
     font-size: 1.2rem;
     justify-content: center;
@@ -88,7 +88,7 @@
     }
   
     .nav-menu.active {
-      background: #c54944; /* this is for the hamburger mobile menu background */
+      background: #008891; /* this is for the hamburger mobile menu background */
       left: 0;
       opacity: 1;
       transition: all 0.5s ease;
@@ -100,11 +100,12 @@
       padding: 2rem;
       width: 100%;
       display: table;
+      color: #eee;
     }
   
     .nav-links:hover {
-      background-color: #2b2e4a;
-      color: #53354a;
+      background-color: #e7e7de;
+      color: #e7e7de;
       border-radius: 0;
     }
   
@@ -125,8 +126,8 @@
       cursor: pointer;
     }
     .nav-links:hover {
-      background-color: #e84545; /*color when hovered over*/
-      color: #eeeeee; /*color of text when hovering links */
+      background-color: #e7e7de; /*color when hovered over*/
+      color: #0f3057; /*color of text when hovering links */
       border-radius: 0;
     }
   
@@ -144,14 +145,14 @@
       text-decoration: none;
       font-size: 1.5rem;
       background-color: transparent;
-      color: #903749;
+      color: #839b97;
       padding: 14px 20px;
       border: 1px solid #000000;
       transition: all 0.3s ease-out;
     }
   
     .nav-links-mobile:hover {
-      background: #e84545;
+      background: #839b97;
       color: #eee;
       transition: 250ms;
     }

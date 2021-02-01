@@ -17,14 +17,14 @@ import './style.css'
 const useStyles = makeStyles((theme) => ({
     root: {
         flexGrow: 1,
-        component: "video"
-
+        component: "video",
+        background: '#e7e7de'
     },
     paper: {
         padding: theme.spacing(2),
         margin: 'auto',
         maxWidth: 800,
-        background: '#903749'
+        background: '#008891'
     },
     image: {
         width: 300,
@@ -47,9 +47,11 @@ const useStyles = makeStyles((theme) => ({
 
 
 
-export function ProjectList({ children }) {
+export function ProjectList({ children }) { // this is where i will adjust the page layout with a card and a list of projects
     return (
+        <>
         <ul className="list-group backcard">{children}</ul>
+        </>
     )
 }
 export function ProjectListItem({
