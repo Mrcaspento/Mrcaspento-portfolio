@@ -18,7 +18,7 @@ const useStyles = makeStyles((theme) => ({
     root: {
         flexGrow: 1,
         component: "video"
-        
+
     },
     paper: {
         padding: theme.spacing(2),
@@ -29,23 +29,22 @@ const useStyles = makeStyles((theme) => ({
     image: {
         width: 300,
         height: 128,
-        
+
     },
     img: {
         margin: 'auto',
-        display: 'block',
         maxWidth: '100%',
         maxHeight: '100%',
-        
+
     },
     media: {
         height: 140,
-     
+
     },
 
 }));
 
-      
+
 
 
 export function ProjectList({ children }) {
@@ -61,7 +60,7 @@ export function ProjectListItem({
     deployed,
     date,
 }) {
-  
+
     const classes = useStyles();
     return (
         <li className="list-group-item m-2">
@@ -73,8 +72,14 @@ export function ProjectListItem({
                             <Grid item xs container direction="column" spacing={2}>
                                 <Grid item xs>
                                     <Card className={classes.root}>
-                                          <img src={gif} alt={title} />
                                         <CardActionArea>
+                                            <CardMedia
+                                                component="img"
+                                                alt={title}
+                                                height="350"
+                                                image= {gif}
+                                                title={title}
+                                            />
                                             <CardContent>
                                                 <Typography gutterBottom variant="h5" component="h2">
                                                     {title}
@@ -85,11 +90,11 @@ export function ProjectListItem({
                                             </CardContent>
                                         </CardActionArea>
                                         <CardActions>
-                                            <Button size="small" variant="contained"color="primary" href={githubRepo} target="_blank">
-                                               GitHub Repo
+                                            <Button size="small" variant="contained" color="primary" href={githubRepo} target="_blank">
+                                                GitHub Repo
                                             </Button>
-                                            <Button size="small" color="primary" variant="contained" target="_blank" href= {deployed}>
-                                             Deployed Website
+                                            <Button size="small" color="primary" variant="contained" target="_blank" href={deployed}>
+                                                Deployed Website
                                                 </Button>
                                         </CardActions>
                                     </Card>
