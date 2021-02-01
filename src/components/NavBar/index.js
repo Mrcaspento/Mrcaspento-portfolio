@@ -5,6 +5,7 @@ import About from '../../pages/About'
 import Contact from '../../pages/Contact'
 
 import Projects from '../../pages/Projects';
+import Header from '../Header';
 
 
 
@@ -35,11 +36,12 @@ window.addEventListener('resize', showMenuButton) //adding this for mobile respo
 
 return(
     <>
+    <Header />
       <nav className="navbar">
                 <div className="navbar-container">
-                    <div to="/home" className="navbar-logo ">
+                    <Link to="/" className="navbar-logo ">
                         Caspento<i className=" fas fa-leaf" />
-                    </div>
+                    </Link>
                     
                     <div className='menu-icon' onClick={handleClick}>
                         <i className={click ? 'fas fa-times' : 'fas fa-bars'} /> {/*Clicks cycle between the mobile menu X and Hamburger menu */}

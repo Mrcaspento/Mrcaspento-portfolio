@@ -1,12 +1,12 @@
 .navbar {
     height: 80px;
-    background: #222831;
+    background: #b71c1c;
     align-items: center;
     font-size: 1.2rem;
     justify-content: center;
     top: 0;
     display: flex;
-    position: sticky;
+    position: relative;
     z-index: 999;
   }
   .navbar-container {
@@ -75,20 +75,20 @@
       position: relative;
     }
   
-    .nav-menu {
+    .nav-menu { /* this relates to the hidden mobile menu that will slide to the right of the screen once the user clicks the 3 bars*/
       display: flex;
       flex-direction: column;
       width: 100%;
       height: 90vh;
       position: absolute;
       top: 80px;
-      left: -100%;
+      left: -100%; /* position that the links are of the page before they are called when moving the desktop screen to mobile */
       opacity: 1;
       transition: all 0.5s ease;
     }
   
     .nav-menu.active {
-      background: #903749; /* this is for the hamburger mobile menu background */
+      background: #c54944; /* this is for the hamburger mobile menu background */
       left: 0;
       opacity: 1;
       transition: all 0.5s ease;
