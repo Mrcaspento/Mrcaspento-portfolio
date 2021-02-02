@@ -2,8 +2,6 @@ import React, {useState, useEffect} from 'react';
 import './style.css'
 import {Link} from 'react-router-dom';
 import About from '../../pages/About'
-import Contact from '../../pages/Contact'
-
 import Projects from '../../pages/Projects';
 import Header from '../Header';
 
@@ -61,11 +59,6 @@ return(
                     </Link>
                     </li>
 
-                    <li className='nav-item'>
-                        <Link to="/contact" className="nav-links" onClick={closeMobileMenu}>{tab === 'contact' &&
-                        <Contact />}<h4>Contact</h4>
-                    </Link>
-                    </li>
                   
                 </ul>
                  {button}   {/*connect this button as a Popper to create event or either    */}

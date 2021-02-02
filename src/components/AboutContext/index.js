@@ -2,8 +2,8 @@ import React from 'react';
 import AboutCard from './AboutCard';
 import { makeStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
-
-
+import Box from '@material-ui/core/Box';
+import ContactCard from "./ContactCard"
 
 const useStyles = makeStyles((theme) => ({
     container: {
@@ -33,8 +33,16 @@ const AboutContext= () => {
   
         return (
         <>
-        <Grid>
-          <AboutCard />
+        <Grid style={{width: '100%'}}>
+          <Box
+          display="flex"
+          p={1}
+          bgcolor="background.paper"
+          justifyContent="center"
+          >
+          {<AboutCard />}
+          <ContactCard />
+          </Box>
 
         </Grid>
         </>
