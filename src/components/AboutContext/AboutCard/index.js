@@ -38,20 +38,12 @@ const useStyles = makeStyles({
           <Typography variant="body2" color="textSecondary" component="p">
           Born in Newark, NJ in 1994.I lived there for 5 years before my
               parents decided to move my twin sister and me to South Carolina looking for a
-              better
-              life, or avoid paying higher taxes. Grew up in Myrtle Beach, Sc and went to
-              Coastal
-              Carolina Unversity for Biochemistery until 2018 where I moved to Charlotte, NC
-              and
-              decided to become a bar manager. Where I also had a pop-up bar in Charlotte at
-              the
-              Discovery Place
+              cheaper place to live.So I wound up  living in Myrtle Beach, Sc where I graduated HighSchool
+              and went to Coastal Carolina Unversity for Biochemistery until 2018 where I moved to Charlotte, NC
+              and became a bar manager working at "Halycon Flavours of the Earth". A resturaunt that is apart of the "Mother Earth Group" along side "Something Classic". Where  occasionally would work with and as luck would have it, I was given an opportunity to create a pop-up bar in Charlotte at the Discovery Place "Science on the Rocks" it was featured in the news Wbtv.com and in the Charlotte Agenda. So I had my few minutes of fame before the pandemic hit. I took this opportunity to follow up learning how to code, to develop the ideas flowing in my head. 
           </Typography>
         </CardContent>
       </CardActionArea>
-      <CardActions>
-    
-      </CardActions>
     </Card>
    
     </>

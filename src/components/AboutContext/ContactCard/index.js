@@ -1,7 +1,6 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
-import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
 import Typography from '@material-ui/core/Typography';
 
@@ -25,12 +24,36 @@ const ContactCard = () => {
           </Typography>
                 <Typography variant="body2" color="textSecondary" component="p">
                     <ul>
-                        <li><strong>Email:</strong> <a href="mailto:Mrcaspento@gmail.com">Mrcaspento@gmail.com</a></li>
-                        <li><strong>Github:</strong> <a href="https://mrcaspento.github.io/">Mrcaspento.github.io</a>
-                        </li>
-                        <li><strong>Twiter:</strong> <a href="https://twitter.com/UnusualCaspento">UnusualCaspento</a></li>
-                        <li><strong>Linkedin:</strong> <a href="https://www.linkedin.com/in/matthew-caspento-6358671b6/">Matthew Caspento</a></li>
-                        <li><strong>Resume:</strong> <a href="../assets/pdf/Resume.pdf" download>Resume</a></li>
+
+                        <Typography variant="body2" color="textSecondary" component="p">
+                            <li>
+                                <strong>Email:</strong> <a href="mailto:Mrcaspento@gmail.com">Mrcaspento@gmail.com</a>
+                            </li>
+                        </Typography>
+                        <Typography variant="body2" color="textSecondary" component="p">
+                            <li>
+                                <strong>Github:</strong> <a href="https://mrcaspento.github.io/">Mrcaspento.github.io</a>
+                            </li>
+                        </Typography>
+                        <Typography variant="body2" color="textSecondary" component="p">
+                            <li>
+                                <strong>Twiter:</strong> <a href="https://twitter.com/UnusualCaspento">UnusualCaspento</a>
+                            </li>
+                        </Typography>
+                        <Typography variant="body2" color="textSecondary" component="p">
+                            <li>
+                                <strong>Linkedin:</strong> <a href="https://www.linkedin.com/in/matthew-caspento-6358671b6/">Matthew Caspento</a>
+                            </li>
+                        </Typography>
+                        <Typography xs={2} variant="body2" color="textSecondary" component="p">
+                            <li>
+                                <strong>Resume:</strong> <a href="../assets/pdf/Resume.pdf" download>Resume</a>
+                            </li>
+                        </Typography>
+                        <Typography variant="body2" color="textSecondary" component="p">                       
+                         <li>
+                            <strong>Linkedin:</strong> <a href="https://www.linkedin.com/in/matthew-caspento-6358671b6/">Matthew Caspento</a>
+                        </li></Typography>
                     </ul>
                 </Typography>
             </CardContent>
