@@ -26,7 +26,7 @@ const useStyles = makeStyles({
         <CardMedia
           component="img"
           alt="About"
-          height="240"
+          height="360"
           border-radius="50% !important" 
           image= {Profile}
           title="ProfileAbout"
