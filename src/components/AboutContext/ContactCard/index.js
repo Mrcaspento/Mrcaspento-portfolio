@@ -3,7 +3,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 import Typography from '@material-ui/core/Typography';
-
+import Pdf from "../../../assets/pdf/Matthew_Caspento(Resume).pdf"
 
 
 
@@ -47,7 +47,7 @@ const ContactCard = () => {
                         </Typography>
                         <Typography xs={2} variant="body2" color="textSecondary" component="p">
                             <li>
-                                <strong>Resume:</strong> <a href="../assets/pdf/Resume.pdf" download>Resume</a>
+                                <strong>Resume:</strong> <a href = {Pdf} target="_blank" rel="noreferrer" download>Resume</a>
                             </li>
                         </Typography>
                         <Typography variant="body2" color="textSecondary" component="p">                       
