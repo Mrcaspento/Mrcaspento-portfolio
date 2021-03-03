@@ -37,9 +37,9 @@
   },
   {
     "id": 5,
-    "title": "tech-news-java-api",
+    "title": "Tech-News-Java-Api",
     "gif": "https://github.com/Mrcaspento/tech-news-java-api/blob/master/assets/JavaTechNews.gif?raw=true",
-    "body": "The user will be able to add expenses and deposits to their budget with or without a connection. When entering transactions offline, they should populate the total when brought back online.",
+    "body": "TWO full-stack social news apps—one backed by a server-side Express.js API, and the other backed by a server-side Java Spring Boot API.",
     "githubRepo": "https://github.com/Mrcaspento/tech-news-java-api",
     "deployed": "https://potato-blogger.herokuapp.com/",
     "date": "March 3rd, 2021 "
